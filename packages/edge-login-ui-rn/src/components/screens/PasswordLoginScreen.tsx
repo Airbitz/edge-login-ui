@@ -515,7 +515,7 @@ const styles = {
     maxHeight: scale(200),
     backgroundColor: '#FFFFFF'
   }
-}
+} as const
 
 export const PasswordLoginScreen = connect<StateProps, DispatchProps, OwnProps>(
   (state: RootState) => ({
